@@ -1,0 +1,83 @@
+- category: 置顶
+  icon: fa-thumbtack
+  items:
+    - name: Horean's Blog
+      link: https://blog.hxrch.top
+    - name: Horean's Site
+      link: https://www.hxrch.top
+ 
+- category: 云厂商
+  icon: fa-cloud
+  items:
+    - name: 腾讯云
+      link: https://cloud.tencent.com
+    - name: 阿里云
+      link: https://www.aliyun.com
+    - name: 火山引擎
+      link: https://volcengine.com
+    - name: 百度云
+      link: https://cloud.baidu.com
+    - name: 七牛云
+      link: https://www.qiniu.com
+    - name: 又拍云
+      link: https://www.upyun.com
+    - name: 华为云
+      link: https://www.huaweicloud.com
+    - name: 京东云
+      link: https://www.jdcloud.com
+    - name: 西部数码
+      link: https://www.west.cn
+    - name: 飞致云
+      link: https://www.fit2cloud.com
+    - name: 有道云AI
+      link: https://ai.youdao.com
+    - name: 贝锐官网
+      link: https://www.oray.com
+    - name: porkbun
+      link: https://porkbun.com
+
+- category: 专业学习资源
+  icon: fa-book
+  items:
+    - name: 国家中小学智慧教育平台
+      link: https://www.zxx.edu.cn
+    - name: 中华经典资源库
+      link: https://zhjdzyk.eduyun.cn
+    - name: 国家教育资源公共服务平台
+      link: https://www.eduyun.cn
+    - name: 中小学语文示范诵读库
+      link: https://news.cctv.com/special/qiantao/zxxsfldkdrj/index.html
+    - name: 中国高等教育学生信息网（学信网）
+      link: https://www.chsi.com.cn
+    - name: 中国大学MOOC
+      link: https://www.icourse163.org
+    - name: Coursera
+      link: https://www.coursera.org
+    - name: Udacity
+      link: https://www.udacity.com
+
+- category: Git | 开源社区
+  icon: fa-brands fa-github
+  items:
+    - name: Git
+      link: https://git-scm.com
+    - name: Git for Windows
+      link: https://gitforwindows.org
+    - name: GitHub
+      link: https://github.com
+    - name: Gitee
+      link: https://gitee.com
+    - name: GitLab
+      link: https://about.gitlab.com
+    - name: Bitbucket
+      link: https://bitbucket.org
+    - name: Gitpod
+      link: https://www.gitpod.io
+    - name: Atlassian
+      link: https://www.atlassian.com
+    - name: 腾讯云 CODING
+      link: https://coding.net
+    - name: GitCode
+      link: https://gitcode.com
+    - name: OSCHINA 开源中国
+      link: https://www.oschina.net

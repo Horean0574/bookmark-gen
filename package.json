@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "chalk": "^5.5.0",
+    "html-entities": "^2.6.0",
     "js-yaml": "^4.1.0"
   }
 }

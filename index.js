@@ -2,6 +2,7 @@ import readline from "readline";
 import fs from "fs";
 import YAML from "js-yaml";
 import chalk from "chalk";
+import { decode } from "html-entities";
 
 async function getSiteDesc(link) {
   try {
@@ -12,7 +13,7 @@ async function getSiteDesc(link) {
     if (data.code === 202) return { code: 3, reason: "Anti-crawl." };
     if (data.code === 404) return { code: 4, reason: "Not found." };
     if (data.code < 200 || data.code > 299) return { code: 5, reason: "Some other errors." };
-    return { code: 1, res: data.data.description };
+    return { code: 1, res: decode(data.data.description) };
   } catch (err) {
     return { code: 0, reason: err };
   }
@@ -56,7 +57,7 @@ function saveData(item, desc) {
     for (let im of category.items) {
       if (im.name !== item.name) continue;
       const idx = category.items.indexOf(im);
-      category.items[idx].description = desc;
+      category.items[idx].description = decode(desc);
       return;
     }
     return;
